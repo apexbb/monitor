@@ -5,6 +5,8 @@ global:
 rule_files:
    - alert.rules.yml
 #   - "/etc/prometheus/alert.rules.yml"
+   - /etc/prometheus/rules.yml
+#   - "/etc/prometheus/alert.rules.yml"
    
 #  - alert.yml
 #  - "alert.yml"
